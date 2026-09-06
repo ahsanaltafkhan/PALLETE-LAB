@@ -1,0 +1,24 @@
+1. Check your remote
+
+git remote -v
+
+If you see:
+
+https://github.com/ahsanaltafkhan/PALLETE-LAB.git
+
+then change it to SSH:
+
+git remote set-url origin git@github.com:ahsanaltafkhan/PALLETE-LAB.git
+
+2. Verify
+
+git remote -v
+
+It should now show:
+
+origin  git@github.com:ahsanaltafkhan/PALLETE-LAB.git (fetch)
+origin  git@github.com:ahsanaltafkhan/PALLETE-LAB.git (push)
+
+3. Push
+
+git push
